@@ -3,8 +3,6 @@ class PagesController < ApplicationController
   end
 
   def home
-
-    @image_number = padded
     @image_name = "Pirate.jpg"
   end
 end

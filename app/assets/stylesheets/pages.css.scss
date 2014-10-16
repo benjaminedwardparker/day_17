@@ -6205,11 +6205,14 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 .hero {
-  background: image-url("wicked_witch.jpg");
+  background: image-url("Pirate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding: 12em;
   text-align: center;
   h1 {
-    color: #fff;
+    color: red;
     font-size: 8rem;
   }
   p {

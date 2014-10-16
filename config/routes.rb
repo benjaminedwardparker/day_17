@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  get 'pages/pirate'
 
-  get 'pages/hello'
+  root to: 'pages#pirate'
+
+  get '/pirate' => 'pages#pirate'
+
+  get '/hello' => "pages#hello"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
